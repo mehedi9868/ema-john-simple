@@ -4,11 +4,12 @@
 }
 
 .products-container {
-    width: 100%;
+    /* width: 100%; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin: 100px 50px;
+    gap: 45px;
+    margin: 100px 90px;
+
     /* need to work here something wrong*/
 }
 
