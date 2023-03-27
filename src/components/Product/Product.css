@@ -75,6 +75,7 @@
     border-top: 1px solid #95A0A7;
     border-radius: 0 0 8px 8px;
     background-color: #FFE0B3;
+    font-size: 16px;
 }
 
 .btn-add-to-cart:hover {
@@ -83,5 +84,4 @@
 
 .btn-text {
     margin-right: 10px;
-    font-size: 16px;
 }
