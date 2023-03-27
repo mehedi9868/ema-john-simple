@@ -14,5 +14,7 @@
 
 .cart-container {
     background-color: antiquewhite;
-    width: 100%;
+    min-width: 264px;
+    padding-top: 80px;
+    background-color: rgba(255, 153, 0, 0.3);
 }

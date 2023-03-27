@@ -76,3 +76,12 @@
     border-radius: 0 0 8px 8px;
     background-color: #FFE0B3;
 }
+
+.btn-add-to-cart:hover {
+    background-color: #ffb84e;
+}
+
+.btn-text {
+    margin-right: 10px;
+    font-size: 16px;
+}
