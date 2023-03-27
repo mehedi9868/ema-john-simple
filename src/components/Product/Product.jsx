@@ -6,10 +6,16 @@ const Product = ({ product }) => {
         <>
             <div className='product'>
                 <img src={img} alt="" />
-                <h5>{name}</h5>
-                <h5>Price: ${price}</h5>
-                <p>Manufacturer:{seller}</p>
-                <p>Ratings:{ratings}</p>
+                <div className='product-info'>
+                    <div>
+                        <h5 className='product-name'> {name}</h5>
+                        <p className='product-price'>Price: ${price}</p>
+                    </div>
+                    <div>
+                        <p className='manufacturer'>Manufacturer: {seller}</p>
+                        <p className='ratings'>Ratings: {ratings} Stars</p>
+                    </div>
+                </div>
                 <button className='btn-add-to-cart'>Add to Cart</button>
             </div>
         </>
